@@ -47,3 +47,4 @@ C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\Emp
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\obj\x86\Debug\net5.0-windows10.0.19041.0\qualifiers.txt
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\obj\x86\Debug\net5.0-windows10.0.19041.0\qualifiers.txt.intermediate
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\obj\x86\Debug\net5.0-windows10.0.19041.0\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\Images\logo.png

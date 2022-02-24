@@ -1,5 +1,6 @@
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\Images\logo.png
 C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI (Package)\Images\SplashScreen.scale-200.png
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI (Package)\Images\LockScreenLogo.scale-200.png
@@ -17,6 +18,7 @@ C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\Emp
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\EmployeeManager.WinUI.runtimeconfig.dev.json
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\Images\logo.png
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe
 C:\Users\Balazs\.nuget\packages\microsoft.projectreunion.foundation\0.8.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.pdb
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\EmployeeManager.WinUI.runtimeconfig.json

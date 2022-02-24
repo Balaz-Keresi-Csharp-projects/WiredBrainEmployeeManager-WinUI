@@ -13,6 +13,13 @@
 					<Value>MainWindow.xbf</Value>
 				</Candidate>
 			</NamedResource>
+			<ResourceMapSubtree name="Images">
+				<NamedResource name="logo.png" uri="ms-resource://EmployeeManager.WinUI/Files/Images/logo.png">
+					<Candidate type="Path">
+						<Value>Images\logo.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
 		</ResourceMapSubtree>
 	</ResourceMap>
 </PriInfo>
