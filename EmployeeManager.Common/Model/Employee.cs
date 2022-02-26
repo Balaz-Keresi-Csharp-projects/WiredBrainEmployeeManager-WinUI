@@ -8,6 +8,8 @@ namespace EmployeeManager.Common.Model
 
     public string FirstName { get; set; }
 
+    public string LastName { get; set; }
+
     public DateTimeOffset EntryDate { get; set; }
 
     public int JobRoleId { get; set; }

@@ -38,3 +38,5 @@ C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\Emp
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI (Package)\obj\x86\Debug\EmployeeManager.WinUI (Package).wapproj.LastBuild.txt
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI (Package)\bin\x86\Debug\Images\logo.png
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI (Package)\bin\x86\Debug\EmployeeManager.WinUI\Images\logo.png
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI (Package)\bin\x86\Debug\Contols\HeaderControl.xbf
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI (Package)\bin\x86\Debug\EmployeeManager.WinUI\Contols\HeaderControl.xbf

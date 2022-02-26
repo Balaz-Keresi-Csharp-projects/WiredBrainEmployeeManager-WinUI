@@ -13,6 +13,13 @@
 					<Value>MainWindow.xbf</Value>
 				</Candidate>
 			</NamedResource>
+			<ResourceMapSubtree name="Contols">
+				<NamedResource name="HeaderControl.xbf" uri="ms-resource://EmployeeManager.WinUI/Files/Contols/HeaderControl.xbf">
+					<Candidate type="Path">
+						<Value>Contols\HeaderControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Images">
 				<NamedResource name="logo.png" uri="ms-resource://EmployeeManager.WinUI/Files/Images/logo.png">
 					<Candidate type="Path">
