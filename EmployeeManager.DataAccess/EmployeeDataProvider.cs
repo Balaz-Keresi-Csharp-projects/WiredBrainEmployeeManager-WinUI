@@ -16,6 +16,7 @@ namespace EmployeeManager.DataAccess
         {
           Id = 1,
           FirstName = "Julia",
+          LastName = "Roberts",
           EntryDate = new DateTime(2019, 10, 1),
           IsCoffeeDrinker = true,
           JobRoleId = 3
@@ -24,6 +25,7 @@ namespace EmployeeManager.DataAccess
         {
           Id = 2,
           FirstName = "Thomas",
+          LastName = "Frank",
           EntryDate = new DateTime(2015, 9, 23),
           IsCoffeeDrinker = true,
           JobRoleId = 1
@@ -32,6 +34,7 @@ namespace EmployeeManager.DataAccess
         {
           Id = 3,
           FirstName = "Anna",
+          LastName = "Delby",
           EntryDate = new DateTime(2020, 1, 1),
           IsCoffeeDrinker = false,
           JobRoleId = 2
@@ -40,6 +43,7 @@ namespace EmployeeManager.DataAccess
         {
           Id = 4,
           FirstName = "Sara",
+          LastName = "Ho",
           EntryDate = new DateTime(2013, 5, 15),
           IsCoffeeDrinker = false,
           JobRoleId = 4
@@ -48,6 +52,7 @@ namespace EmployeeManager.DataAccess
         {
           Id = 5,
           FirstName = "Miguel",
+          LastName = "Angello",
           EntryDate = new DateTime(2014, 11, 17),
           IsCoffeeDrinker = true,
           JobRoleId = 1

@@ -15,6 +15,12 @@ C:\Users\Balazs\.nuget\packages\microsoft.projectreunion.foundation\0.8.6\lib\ne
 C:\Users\Balazs\.nuget\packages\microsoft.projectreunion.winui\0.8.6\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
 C:\Users\Balazs\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\Microsoft.Windows.SDK.NET.dll
 C:\Users\Balazs\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\WinRT.Runtime.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.Common\bin\Debug\net5.0\EmployeeManager.Common.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.DataAccess\bin\Debug\net5.0\EmployeeManager.DataAccess.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\bin\Debug\net5.0\EmployeeManager.ViewModel.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.Common\bin\Debug\net5.0\EmployeeManager.Common.pdb
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.DataAccess\bin\Debug\net5.0\EmployeeManager.DataAccess.pdb
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\bin\Debug\net5.0\EmployeeManager.ViewModel.pdb
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\EmployeeManager.WinUI.deps.json
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\EmployeeManager.WinUI.runtimeconfig.dev.json
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf

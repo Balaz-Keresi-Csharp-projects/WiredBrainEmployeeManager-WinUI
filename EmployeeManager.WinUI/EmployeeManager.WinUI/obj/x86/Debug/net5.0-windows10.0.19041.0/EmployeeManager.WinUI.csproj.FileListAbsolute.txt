@@ -53,3 +53,9 @@ C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\Emp
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\obj\x86\Debug\net5.0-windows10.0.19041.0\Contols\HeaderControl.g.cs
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\obj\x86\Debug\net5.0-windows10.0.19041.0\Contols\HeaderControl.xaml
 C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\obj\x86\Debug\net5.0-windows10.0.19041.0\Contols\HeaderControl.xbf
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\EmployeeManager.Common.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\EmployeeManager.DataAccess.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\EmployeeManager.ViewModel.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\EmployeeManager.Common.pdb
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\EmployeeManager.DataAccess.pdb
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.WinUI\EmployeeManager.WinUI\bin\x86\Debug\net5.0-windows10.0.19041.0\EmployeeManager.ViewModel.pdb

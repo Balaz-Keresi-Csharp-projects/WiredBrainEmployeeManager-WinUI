@@ -1,11 +1,10 @@
 ﻿using EmployeeManager.Common.DataProvider;
 using EmployeeManager.Common.Model;
 using System;
-using System.ComponentModel;
 
 namespace EmployeeManager.ViewModel
 {
-    public class EmployeeViewModel : INotifyPropertyChanged
+    public class EmployeeViewModel : ViewModelBase
     {
         private readonly Employee _employee;
         private readonly IEmployeeDataProvider _employeeDataProvider;
@@ -25,19 +24,21 @@ namespace EmployeeManager.ViewModel
                 {
                     _employee.FirstName = value;
                     RaisePropertyChangedEvent(nameof(FirstName));
+                    RaisePropertyChangedEvent(nameof(CanSave));
                 }
             }
         }
 
         public string LastName
         {
-            get => _employee.FirstName;
+            get => _employee.LastName;
             set
             {
-                if (_employee.FirstName != value)
+                if (_employee.LastName != value)
                 {
-                    _employee.FirstName = value;
+                    _employee.LastName = value;
                     RaisePropertyChangedEvent(nameof(LastName));
+                    RaisePropertyChangedEvent(nameof(CanSave));
                 }
             }
         }
@@ -81,18 +82,11 @@ namespace EmployeeManager.ViewModel
             }
         }
 
-        public bool CanSave() => !string.IsNullOrEmpty(FirstName) && !string.IsNullOrEmpty(LastName);
+        public bool CanSave => !string.IsNullOrEmpty(FirstName) && !string.IsNullOrEmpty(LastName);
 
         public void Save()
         {
             _employeeDataProvider.SaveEmployee(_employee);
         }
-
-        private void RaisePropertyChangedEvent(string property)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\bin\Debug\net5.0\EmployeeManager.ViewModel.deps.json
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\bin\Debug\net5.0\EmployeeManager.ViewModel.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\bin\Debug\net5.0\ref\EmployeeManager.ViewModel.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\bin\Debug\net5.0\EmployeeManager.ViewModel.pdb
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\bin\Debug\net5.0\EmployeeManager.Common.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\bin\Debug\net5.0\EmployeeManager.Common.pdb
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\obj\Debug\net5.0\EmployeeManager.ViewModel.csproj.AssemblyReference.cache
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\obj\Debug\net5.0\EmployeeManager.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\obj\Debug\net5.0\EmployeeManager.ViewModel.AssemblyInfoInputs.cache
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\obj\Debug\net5.0\EmployeeManager.ViewModel.AssemblyInfo.cs
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\obj\Debug\net5.0\EmployeeManager.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\obj\Debug\net5.0\EmployeeManager.ViewModel.csproj.CopyComplete
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\obj\Debug\net5.0\EmployeeManager.ViewModel.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\obj\Debug\net5.0\ref\EmployeeManager.ViewModel.dll
+C:\Users\Balazs\source\repos\WiredBrainEmployeeManager\EmployeeManager.ViewModel\obj\Debug\net5.0\EmployeeManager.ViewModel.pdb

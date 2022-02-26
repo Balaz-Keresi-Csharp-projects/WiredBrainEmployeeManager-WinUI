@@ -224,7 +224,7 @@ namespace EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -233,8 +233,10 @@ namespace EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo
             _typeNameTable[5] = "Microsoft.UI.Xaml.Controls.UserControl";
             _typeNameTable[6] = "EmployeeManager.WinUI.MainWindow";
             _typeNameTable[7] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[8] = "EmployeeManager.ViewModel.MainViewModel";
+            _typeNameTable[9] = "EmployeeManager.ViewModel.ViewModelBase";
 
-            _typeTable = new global::System.Type[8];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -243,6 +245,8 @@ namespace EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
             _typeTable[6] = typeof(global::EmployeeManager.WinUI.MainWindow);
             _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[8] = typeof(global::EmployeeManager.ViewModel.MainViewModel);
+            _typeTable[9] = typeof(global::EmployeeManager.ViewModel.ViewModelBase);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -280,6 +284,7 @@ namespace EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
         private object Activate_4_HeaderControl() { return new global::EmployeeManager.WinUI.Contols.HeaderControl(); }
         private object Activate_6_MainWindow() { return new global::EmployeeManager.WinUI.MainWindow(); }
+        private object Activate_9_ViewModelBase() { return new global::EmployeeManager.ViewModel.ViewModelBase(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -332,12 +337,25 @@ namespace EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo
             case 6:   //  EmployeeManager.WinUI.MainWindow
                 userType = new global::EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
                 userType.Activator = Activate_6_MainWindow;
+                userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 7:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  EmployeeManager.ViewModel.MainViewModel
+                userType = new global::EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("EmployeeManager.ViewModel.ViewModelBase"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 9:   //  EmployeeManager.ViewModel.ViewModelBase
+                userType = new global::EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_9_ViewModelBase;
+                xamlType = userType;
                 break;
             }
             return xamlType;
@@ -408,6 +426,11 @@ namespace EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.XamlControlsResources)instance;
             that.UseCompactResources = (global::System.Boolean)Value;
         }
+        private object get_1_MainWindow_ViewModel(object instance)
+        {
+            var that = (global::EmployeeManager.WinUI.MainWindow)instance;
+            return that.ViewModel;
+        }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -422,6 +445,12 @@ namespace EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
+                break;
+            case "EmployeeManager.WinUI.MainWindow.ViewModel":
+                userType = (global::EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("EmployeeManager.WinUI.MainWindow");
+                xamlMember = new global::EmployeeManager.WinUI.EmployeeManager_WinUI_XamlTypeInfo.XamlMember(this, "ViewModel", "EmployeeManager.ViewModel.MainViewModel");
+                xamlMember.Getter = get_1_MainWindow_ViewModel;
+                xamlMember.SetIsReadOnly();
                 break;
             }
             return xamlMember;

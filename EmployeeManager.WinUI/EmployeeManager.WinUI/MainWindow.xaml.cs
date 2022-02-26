@@ -1,4 +1,6 @@
-﻿using Microsoft.UI.Xaml;
+﻿using EmployeeManager.DataAccess;
+using EmployeeManager.ViewModel;
+using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
 using Microsoft.UI.Xaml.Data;
@@ -26,6 +28,18 @@ namespace EmployeeManager.WinUI
         public MainWindow()
         {
             this.InitializeComponent();
+            ViewModel = new MainViewModel(new EmployeeDataProvider());
+            this.Activated += MainWindowActivated;
         }
+
+        private void MainWindowActivated(object sender, WindowActivatedEventArgs args)
+        {
+            if (ViewModel.Employees.Count == 0)
+            {
+                ViewModel.Load();
+            }
+        }
+
+        public MainViewModel ViewModel { get; }
     }
 }
